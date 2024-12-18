@@ -1,3 +1,6 @@
+file handling system is needed for all steps of this project.
+SEE filehandling module for more information
+
 part 1:
 {
     1.download csv file and get to know it
