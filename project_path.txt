@@ -29,12 +29,14 @@ part 1:
             the new file without useless columns : train_dataset/1.csv
             valid values:
             {
-                survived : 0,1
+                Sex      : male,female
+                Age      : 0-80
                 Pclass   : 1,2,3
                 SibSp    : 0,1,2,3,4,5,6,7,8
                 Parch    : 0,1,2,3,4,5,6
                 Fare     : 0 - 512.3292
                 Embarked : C,S,Q
+                survived : 0,1
             }
         }
     }

@@ -45,5 +45,3 @@ def CSV_write(newfilename,dataset,dictionary):
         file.write('\n')
     file.close()
 
-dict,dataset = CSV_read("test.csv")
-CSV_write("new.csv",dataset,dict)
