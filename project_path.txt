@@ -1,8 +1,10 @@
 part 1:
+{
     1.download csv file and get to know it
     {
         file: train_dataset/train_Titanic.csv
         explanation:
+        891 records.
         {
             according to the page:
             https://cloudxlab.com/assessment/displayslide/2147/titanic-dataset-categorical-variables#:~:text=SibSp%20%2D%20how%20many%20siblings%20%26%20spouses,the%20price%20paid%20(in%20pounds)
@@ -22,5 +24,46 @@ part 1:
             }
             so we are gonna delete these columns since they are useless
             the new file without useless columns : train_dataset/1.csv
+            valid values:
+            {
+                survived : 0,1
+                Pclass   : 1,2,3
+                SibSp    : 0,1,2,3,4,5,6,7,8
+                Parch    : 0,1,2,3,4,5,6
+                Fare     : 0 - 512.3292
+                Embarked : C,S,Q
+            }
         }
     }
+
+    2.  find columns containing lost values
+        provide strategie to handle them:
+            columns with lost values:
+            {
+                age:177 of 891 records without age value. 19% of records.
+                Cabin:687 of 891 records without cabin value. 77% of records
+                Embarked: 2 of 891 records without embarked value. less than 1% of records.
+            }
+
+            strategie:
+            {
+                for embarked:
+                {
+                    we will generate a random valid value for 2 records.
+                    since only less than 1% all records lack this value.
+                }
+                for Cabin:
+                {
+                    since 77% percent of records lack this value,
+                    we will delete that columns.
+                }
+                for age:
+                {
+                    a specific function will be designed to guess lost values based statistics and probability
+                }
+
+            }
+
+
+
+}
