@@ -20,5 +20,7 @@ part 1:
                 Embarked - where the passenger embarked the Titanic
                 Hint: You can ignore name, id and ticket# columns because these are just identifiers and don't offer value as a feature.
             }
+            so we are gonna delete these columns since they are useless
+            the new file without useless columns : train_dataset/1.csv
         }
     }
