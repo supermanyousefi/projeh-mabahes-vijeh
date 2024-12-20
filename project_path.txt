@@ -76,3 +76,22 @@ part 1:
     }
 
 }
+
+part 2: data preparation
+{
+    1.replace non-numeric values with numbers:
+    {
+        Sex:
+        {
+            'male'  : 0
+            'female': 1
+        }
+
+        Embarked:
+        {
+            'C' : 0
+            'Q' : 1
+            'S' : 2
+        }
+    }
+}
