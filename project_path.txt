@@ -94,4 +94,8 @@ part 2: data preparation
             'S' : 2
         }
     }
+    2.normalize all data
+    {
+        File: 4.csv is a normalized dataset
+    }
 }
