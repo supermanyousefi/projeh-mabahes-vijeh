@@ -65,7 +65,8 @@ part 1:
                 }
                 for age:
                 {
-                    a specific function will be designed to guess lost values based statistics and probability
+                    a specific function is designed to guess lost values based on a specific strategie.
+                    a video will be added to explaine
                 }
 
             }
