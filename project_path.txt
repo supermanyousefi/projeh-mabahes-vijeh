@@ -70,7 +70,9 @@ part 1:
                 }
 
             }
-
-
+    3.draw distribiuted graphs of survived 
+    {
+        SEE file Graphs.ipynb
+    }
 
 }
